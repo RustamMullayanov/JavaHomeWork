@@ -20,6 +20,6 @@ public class MakeFileSystem {
         Folder root = new Folder("browsers", childFolders);
 
         System.out.println(agreement.getPathForFile());
-        System.out.println(String.format("Extension file %s: %s",fireFox.getName(),fireFox.getExtension()));
+        System.out.printf("Extension file %s: %s%n",fireFox.getName(),fireFox.getExtension());
     }
 }
